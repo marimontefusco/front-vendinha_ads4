@@ -1,0 +1,13 @@
+.formulario {
+    background-color: blue;
+    max-width: 360px;
+    margin: 0 auto;
+}
+
+input[type="text, email, password, button"],
+select {
+    width: 100%;
+    border-radius: 20px;
+    border: 1px solid blue;
+}
+/* , type = "email", type="password", ty] */
