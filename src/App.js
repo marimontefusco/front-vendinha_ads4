@@ -1,10 +1,14 @@
 import './App.css';
-import CadastroUser from './components/CadastroUser';
+import UserRegistration from './components/UserRegistration';
 
 function App() {
   return (
     <>
-      <CadastroUser/>
+    <div className="container">
+      <h1>Vendinha do Lasanha</h1>
+      <UserRegistration/>
+    </div>
+
     </>
   );
 }

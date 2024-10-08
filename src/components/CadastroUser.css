@@ -1,4 +1,15 @@
-.formulario {
+.container {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.container #formulario label{
+  flex-direction: column;
+}
+
+
+/* .formulario {
     background-color: blue;
     max-width: 360px;
     margin: 0 auto;
@@ -9,5 +20,5 @@ select {
     width: 100%;
     border-radius: 20px;
     border: 1px solid blue;
-}
+} */
 /* , type = "email", type="password", ty] */
